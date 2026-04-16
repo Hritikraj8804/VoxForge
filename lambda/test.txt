@@ -1,5 +1,3 @@
 {
-  "text": "Hello world",
-  "voice": "Joanna",
-  "rate": "fast"
+  "body": "{\"text\":\"Hello world\",\"voice\":\"Joanna\",\"rate\":\"fast\"}"
 }
