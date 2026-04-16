@@ -334,9 +334,6 @@ Verify Polly and S3 are available in your region.
 - [ ] Add webhook callbacks for async processing
 - [ ] Implement audio file expiration and cleanup policies
 
-## License
-
-[Add your license information here]
 
 ## Support
 
