@@ -77,7 +77,7 @@ async function convert() {
 
     document.getElementById("status").innerText = "Processing...";
 
-    const res = await fetch("YOUR_API_GATEWAY_URL_HERE", {
+    const res = await fetch("YOUR_API_GATEWAY_URL_HERE/convert", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
