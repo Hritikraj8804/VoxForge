@@ -10,27 +10,8 @@ This project provides a complete serverless solution for converting text to spee
 
 ### System Architecture Diagram
 
-```
-┌─────────────────┐
-│   Web Browser   │
-│  (index.html)   │
-└────────┬────────┘
-         │ HTTP/CORS
-         ▼
-    ┌────────────┐
-    │  API GW/   │
-    │  Lambda    │
-    │(index.mjs) │
-    └─────┬──────┘
-          │
-    ┌─────┴─────────────┐
-    │                   │
-    ▼                   ▼
-┌─────────────┐   ┌─────────────┐
-│   Polly     │   │  S3 Cache   │
-│(Text→Speech)│   │ (Audio MP3) │
-└─────────────┘   └─────────────┘
-```
+<img width="1463" height="682" alt="diagram" src="https://github.com/user-attachments/assets/190d0763-590a-4152-ac92-a2bdf309dcaa" />
+
 
 ### Component Details
 
